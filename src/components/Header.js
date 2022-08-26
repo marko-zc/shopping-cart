@@ -9,7 +9,7 @@ const Header = () => {
     <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
         <Container>
             <NavbarBrand>
-                <Link to="/">Shopping Cart</a>
+                <Link to="/">Shopping Cart</Link>
             </NavbarBrand>
             <Navbar.Text className='search'>
                 <FormControl 
@@ -36,4 +36,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;
